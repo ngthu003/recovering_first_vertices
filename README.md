@@ -29,5 +29,11 @@ We also propose some measures to reduce the complexity of the main method (intro
 
 For the complete __ReadMe__, please go to [Github Readme](https://github.com/thn003/recovering_first_vertices/blob/master/Github%20Readme.ipynb), which is a rendered ipynb file.
 
+***
+
+#### Code
+
+The simulation was done in R. We plan to publish the codes in the upcoming days. The data (which can take a while to generate) are available upon request.
+
 
 
