@@ -22,10 +22,17 @@ We also propose some measures to reduce the complexity of the main method (intro
 
 ***
 
-### Some of the main findings
+### Introduction and Problem statements
 
-#### Recovering vertex $1$
 
-#### Recovering the first $L$ vertices
+
+
+***
+
+### Main Findings
+
+#### Recovering Vertex $1$
+
+#### Recovering the First $L$ Vertices
 
 
