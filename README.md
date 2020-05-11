@@ -5,6 +5,11 @@
 
 > This repository summarizes the main results and findings from my work for the Honors Thesis in Mathematics at University of California, San Diego, under the guidance of Professor Ery Arias-Castro. I have successfully presented the work in Spring 2020 and am now putting the final touches to the thesis.
 
+> If you are interested in the full findings or the theoretical results (on the asymptotic accuracy and algorithm complexity), please refer to the 
+> __[presentation slides](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis%20Presentation.pdf)__
+> and the 
+> __[thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis%20-%20First%20Draft.pdf)__ for more details.
+
 ***
 
 ### Abstract
@@ -22,17 +27,7 @@ We also propose some measures to reduce the complexity of the main method (intro
 
 ***
 
-### Introduction and Problem statements
+For the complete __ReadMe__, please go to [Github Readme](https://github.com/thn003/recovering_first_vertices/blob/master/Github%20Readme.ipynb), which is a rendered ipynb file.
 
-
-
-
-***
-
-### Main Findings
-
-#### Recovering Vertex $1$
-
-#### Recovering the First $L$ Vertices
 
 
