@@ -25,7 +25,7 @@ We find that we can get both significantly accurate and significantly precise wh
 
 We also propose some measures to reduce the complexity of the main method (introduced in the first paragraph) such as combining with using the vertex degree and focusing only into certain subsets of vertices.
 
-![An example of an unlabeled tree graph grown under the preferential attachment model](https://github.com/thn003/recovering_first_vertices/blob/master/Figures/PA%20Model%20on%20Tree%20-%20Simulation%20Example.jpeg)
+![An example of an unlabeled tree graph grown under the preferential attachment model](https://github.com/thn003/recovering_first_vertices/blob/master/Figures/Graph%20Example%20-%20Pref%20Attm.jpeg)
 
 ***
 
