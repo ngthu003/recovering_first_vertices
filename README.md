@@ -10,6 +10,8 @@
 > and the 
 > __[thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis.pdf)__ for more details.
 
+> __Update 06/15/2020:__ This thesis was awarded the High Distinction Honors award, the highest such award from the Department of Mathematics at UCSD for the academic year 2019-2020. More information is available [here](https://www.math.ucsd.edu/undergraduate/honors-program/honors-theses/index.html#2019-2020).
+
 ***
 
 ### Abstract
