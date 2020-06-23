@@ -12,10 +12,11 @@
 # ============================================================================ !
 
 
-# Statistical Analysis on Convergence of Recovery Rate
-
+# Load libraries ------------------------------------------------------------- !
 library(ggplot2); library(ggthemes); library(tidyverse); library(reshape2)
 
+
+# Load Recovery Rate data ---------------------------------------------------- !
 load('Pref Attm - Recovery Rate - Vertex 1 - Via Degrees.RData')
 load('Pref Attm - Recovery Rate - Vertex 1 - Via Phi values.RData')
 
@@ -26,12 +27,6 @@ load('Pref Attm - Recovery Rate - Vertex 1 - Via Phi values.RData')
 K.vector <- c(seq(1, 9, by = 1), seq(10, 100, by = 5))
 # -----                                                                 ------ !
 # ---------------------------------------------------------------------------- !
-
-
-
-
-
-pa.recovered.1.deg
 
 
 
@@ -276,34 +271,6 @@ rm(df.t, df.melted,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 K.vector <- c(seq(1, 9, by = 1), seq(10, 100, by = 5))
 # ============================================================================ !
 # ----- C. Comparison                -------------------------------------------
@@ -429,18 +396,6 @@ df.melted %>%
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 load('Pref Attm - Recovery Rate - Vertex 1 - Via Phi values.RData')
 load('Pref Attm - Recovery Rate - Vertex 1 - Via Phi on Degree - Top 100.RData')
 load('Pref Attm - Recovery Rate - Vertex 1 - Via Phi on Degree - Top 500.RData')
@@ -513,9 +468,3 @@ df.melted %>%
         legend.title = element_blank(),
         axis.title = element_text(face = 'bold', size = 16))
 # ------------------------------------------------------------------ !
-
-
-
-
-
-
