@@ -1,3 +1,15 @@
+#### Model specification
+
+We first specify the growth rule of our model. Let G<sub>0</sub> be a singleton (a single vertex with no edges), and d<sub>t</sub>(u) be the degree of vertex u in the graph G(t). We construct G(t+1) as:
+
+<img src="https://github.com/thn003/recovering_first_vertices/blob/master/Figures/Growth%20rule.png" width="70%" height="60%" class="center">
+
+We note that when &alpha; = 0, we have the __uniform attachement__ model, and when &alpha; = 1 we have the __preferential attachment__ model.
+
+***
+
+#### Code
+
 Here are two R functions to generate the Uniform Attachment and Preferential Attachment models on trees, and a function to get the graph statistics (vertex degree and phi value):
 
 1.  __[Uniform attachment](https://github.com/thn003/recovering_first_vertices/blob/master/Data%20Generation/Graph%20Generation%20-%20Unif%20Attm%20on%20Tree%20Simulations.R)__
