@@ -2,8 +2,8 @@
 
 First are two R functions to recover vertex 1 given the vertex degree and phi values:
 
-1.  __[Single method algorithm](https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Code/Root-finding%20Algorithm%20-%20Recover%20Vertex%201.R)__
-2.  __[Combination of using phi and vertex degree algorithm](https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Code/Root-finding%20Algorithm%20-%20Recover%20Vertex%201%20-%20Phi%20on%20Degree.R)__
+1.  __[Single method algorithm](https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Code/Root-finding%20Algorithm%20-%20Recover%20Vertex%201.R)__: to return the recovery rates when using either phi value or vertex degree as the (only) criteria
+2.  __[Combination of using phi and vertex degree algorithm](https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Code/Root-finding%20Algorithm%20-%20Recover%20Vertex%201%20-%20Phi%20on%20Degree.R)__: to return the recovery rates after a 2-step process: (1) select a small set of vertices with highest degrees, and (2) return vertices with the smallest phi values among those vertices from (1)
 
 Second is a script to plot out the recovery rates:
 
