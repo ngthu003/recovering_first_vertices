@@ -32,10 +32,7 @@ get_degree_phi_1_graph <- function(inc_matrix) {
   
   # FIXME
   # ----- Time Complexity: not going to compute Phi for all vertices
-  # ---------------------- compute 5,000 vertices
-  # ------------------------------ first 2,000 vertices
-  # ------------------------------ next 3,000 chosen randomly from
-  # ------------------------------ from vt. index 2001 to the 75 % vt. (Q_3)
+  # ---------------------- compute phi of the first 5,000 vertices
   # ------------------------------ all else: assign Phi(u) = n-1 <=> u: a leaf
   
   # TODO
