@@ -47,7 +47,7 @@ We also propose some measures to reduce the complexity of the main method (intro
 
 ***
 
-For the complete __ReadMe__, please go to this __[README](https://github.com/thn003/recovering_first_vertices/blob/master/README.ipynb)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
+For the complete __ReadMe__, please refer to this __[README](https://github.com/thn003/recovering_first_vertices/blob/master/README.ipynb)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
 
 ***
 
