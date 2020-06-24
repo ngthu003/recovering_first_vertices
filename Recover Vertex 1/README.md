@@ -17,7 +17,7 @@ In implementing the algorithms, we used the packages "igraph" most of the time: 
 
 #### Results (Not exhaustive)
 
-1.  The recovery rate if we return K = 20 vertices over the wide range of graph sizes:
+1.  The recovery rate if we return K = 20 vertices over a wide range of graph sizes:
 
 >  <img src="https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Figures/Pref%20Attm%20-%20Recover%201%20-%20Phi%20-%20K%20%3D%2020.jpeg" width="60%" height="60%" class="center">
 
@@ -29,4 +29,4 @@ In implementing the algorithms, we used the packages "igraph" most of the time: 
 
 >  <img src="https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Figures/Pref%20Attm%20-%20Comparison%20-%20Phi%20vs%20Phi%20on%20Degree%20-%20K%20%3D%201%2C2%2C3%2C4%2C5.jpeg" width="60%" height="60%" class="center">
 
-For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20Vertex%201/Figures)
+For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20Vertex%201/Figures).
