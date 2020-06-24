@@ -34,23 +34,39 @@ Below is a snapshot of such graph with 50 vertices. Can you guess where vertex 1
 
 ### Abstract
 
-We study the problem of recovering the first vertices in a graph grown under the preferential attachment rules. We focus on tree graphs. We introduce the familiar algorithm of looking at the largest connected component after removing any one vertex.
+We study the problem of recovering the first vertices in a graph grown under the preferential attachment rules. We focus on tree graphs. We start with and build upon the algorithm introduced by Bubeck, Devroye, and Lugosi in [1] which looks at the largest connected component after removing any one vertex.
 
-We first consider recovering only vertex 1. We provide a detailed proof of the accuracy of the algorithm. We then test the algorithm with simulations over a wide range of graph sizes. Given the computation cost, we propose a two-step procedure which
-combine that with using the vertex degree.
+We first consider recovering only vertex 1. We provide a more detailed proof of the accuracy of the algorithm, which is taken from [1]. We test the algorithm with simulations over a wide range of graph sizes. Given the computation cost, we propose a two-step procedure which combine that with using the vertex degree to cut down the complexity without giving up much accuracy. We then consider recovering the first L vertices. We propose a sequential algorithm where at each stage we do a local search conditioned on what already know. We conjecture on the expectation of that algorithm and then test the algorithm on simulations.
 
-We then consider recovering more than just vertex 1. We propose a sequential algorithm where at each stage we do a local search conditioned on what already know. We conjecture on the expectation of that algorithm and then test the algorithm on simulations.
-
-We find that we can get both significantly accurate and significantly precise when recovering vertex 1. However, the problem starts becoming much harder once we want to recover more vertices. In particular, once we look for the fifth vertex and beyond, the accuracy drops considerably. Nonetheless, it appears that we can increase the accuracy if we are willing to trade that with being precise.
-
-We also propose some measures to reduce the complexity of the main method (introduced in the first paragraph) such as combining with using the vertex degree and focusing only into certain subsets of vertices.
+We find that we can get significantly accurate when recovering vertex 1. However, the problem starts becoming much harder once we want to recover more vertices. In particular, it only takes until the fifth vertex to observe considerable drops in the accuracy. Nonetheless, it appears that it is possible to increase the accuracy greatly if we are willing to return a larger set of suspected vertices.
 
 ***
 
-For the complete __ReadMe__, please refer to this __[README](https://github.com/thn003/recovering_first_vertices/blob/master/README.ipynb)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
+#### Results
+
+For an overview of the main results, please refer to this more complete __[README](https://github.com/thn003/recovering_first_vertices/blob/master/README.ipynb)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
+
+***
+
+#### Repository structure
+
+This repository consists of 3 main folders:
+
+1.  __[Data Generation](https://github.com/thn003/recovering_first_vertices/tree/master/Data%20Generation)__: model specification and data generation
+2.  __[Recover Vertex 1](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20Vertex%201)__: explanation of the base and the modified algorithms and their results
+3.  __[Recover First Vertices](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20First%20Vertices)__: explanation of the proposed algorithm and its results
+
+In each folder, we tried to provide as much theoretical details as possible (for example: specifying the growth rule under general and special cases, or commenting on the algorithm theoretical accuracy). However, due to the limit of math writing on Github and Jupyter Notebook, we could only provide so much information. Please refer to the __[presentation slides](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis%20Presentation.pdf)__ and the 
+__[thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis.pdf)__ for a complete discussion of the problems and the algorithms.
 
 ***
 
 #### Code
 
-The simulation was done in R. We have published the code used in the study. The data (which can take a while to generate) are available upon request.
+The study was done in R. We have published the code used in the study. The data (which can take a while to generate) are available upon request.
+
+***
+
+#### Reference
+
+1.  Sebastien Bubeck, Luc Devroye, and Gabor Lugosi. Finding adam in random growing trees. *Random Structures Algorithms*, 50(2), 2016.
