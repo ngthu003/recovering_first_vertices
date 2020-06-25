@@ -14,6 +14,8 @@ __Update 06/15/2020:__ The thesis received the __High Distinction Honors award__
 
 ***
 
+<br/> 
+
 ### Motivation
 
 Connectivity is by nature dynamic. A network of such can both grow and shrink over time. Here we desire to know the sources of such network, ie. the very first vertices in that dynamic network. Below is an example of a graph in different forms: fully (and correctly) labeled versus its unlabeled copies.
@@ -32,6 +34,8 @@ Below is a snapshot of such graph with 50 vertices. Can you guess where vertex 1
 
 ***
 
+<br/> 
+
 ### Abstract
 
 We study the problem of recovering the first vertices in a graph grown under the preferential attachment rules. We focus on tree graphs. We start with and build upon the algorithm introduced by Bubeck, Devroye, and Lugosi in [1] which looks at the largest connected component after removing any one vertex.
@@ -42,13 +46,17 @@ We find that we can get significantly accurate when recovering vertex 1. However
 
 ***
 
-#### Results
+<br/> 
 
-For an overview of the main results, please refer to this more complete __[README](https://github.com/thn003/recovering_first_vertices/blob/master/README.ipynb)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
+### Results
+
+For an overview of the main results, please refer to this more complete __[README](https://nbviewer.jupyter.org/github/thn003/recovering_first_vertices/blob/master/Honors%20Thesis%20-%20README.ipynb#Motivation)__ page, which is a rendered ipynb file which has enhanced support for displaying math and figures.
 
 ***
 
-#### Repository structure
+<br/> 
+
+### Repository Contents
 
 This repository consists of 3 main folders:
 
@@ -61,12 +69,16 @@ __[thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BTh
 
 ***
 
-#### Code
+<br/> 
+
+### Code
 
 The study was done in R. We have published the code used in the study. The data (which can take a while to generate) are available upon request.
 
 ***
 
-#### Reference
+<br/> 
+
+### Reference
 
 1.  Sebastien Bubeck, Luc Devroye, and Gabor Lugosi. Finding adam in random growing trees. *Random Structures Algorithms*, 50(2), 2016.
