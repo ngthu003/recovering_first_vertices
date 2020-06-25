@@ -32,4 +32,4 @@ In implementing the algorithms, we used the packages "igraph" most of the time: 
 
 >  <img src="https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20Vertex%201/Figures/Pref%20Attm%20-%20Comparison%20-%20Phi%20vs%20Phi%20on%20Degree%20-%20K%20%3D%201%2C2%2C3%2C4%2C5.jpeg" width="60%" height="60%" class="center">
 
-For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20Vertex%201/Figures).
+For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20Vertex%201/Figures) for the figures and the [Thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis.pdf) for the discussion.
