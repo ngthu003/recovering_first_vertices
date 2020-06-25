@@ -42,4 +42,4 @@ In implementing the algorithms, we used the packages "igraph" most of the time: 
 
 >  <img src="https://github.com/thn003/recovering_first_vertices/blob/master/Recover%20First%20Vertices/Figures/Recover%20First%20Vertices%20with%20Partial%20%26%20Perfect%20Knowledge/Pref%20Attm%20-%20Recover%20Vertices%20on%20Perfect%20Knowledge%20-%20Subgraphs%20-%20n%20%3D%2050%2C000.jpeg" width="70%" height="60%" class="center">
 
-For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20First%20Vertices/Figures).
+For further results, please refer to the [Figures folder](https://github.com/thn003/recovering_first_vertices/tree/master/Recover%20First%20Vertices/Figures) for the figures and the [Thesis](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis.pdf) for the discussion.
