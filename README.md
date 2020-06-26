@@ -3,7 +3,7 @@
 
 ###### Background Information
 
-> This repository summarizes the main results and findings from my work for the Honors Thesis in Mathematics at University of California, San Diego, under the guidance of Professor Ery Arias-Castro. I successfully presented the work in Spring 2020.
+> This repository summarizes the main results and findings from my work for the `Honors Thesis in Mathematics` at University of California, San Diego, under the guidance of Professor Ery Arias-Castro. I successfully presented the work in Spring 2020.
 
 > If you are interested in the full findings or the theoretical results (on the asymptotic accuracy and algorithm complexity), please refer to the 
 > __[presentation slides](https://github.com/thn003/recovering_first_vertices/blob/master/%5BThu%20Nguyen%5D%20Math%20199H%20-%20Thesis%20Presentation.pdf)__
